@@ -1,0 +1,65 @@
+# config file for:
+# FakeNews
+
+
+
+# Test
+# [IO]
+# prog_folder: Documents/repos/PPJMHJ
+# data_folder: /home/patrick.jeuniaux/FakeNews/dataset-test
+# start_folder: ${data_folder}/none
+# ready_folder: ${data_folder}/1_raw
+# processed_folder: ${data_folder}/1_processed
+# ud_folder: ${data_folder}/2_parse
+# log_folder: ${data_folder}
+# log_format:
+
+
+# Real
+# [IO]
+# prog_folder: Documents/repos/PPJMHJ
+# data_folder: /home/alessandro.bondielli/fake-news/data
+# start_folder: ${data_folder}/none
+# ready_folder: ${data_folder}/notre-dame_dataset_raw
+# processed_folder: ${data_folder}/notre-dame_dataset_raw_processed
+# ud_folder: /home/patrick.jeuniaux/FakeNews/parse
+# log_folder: /home/patrick.jeuniaux/FakeNews
+# log_format:
+
+
+# Problematic files
+[IO]
+prog_folder: Documents/repos/PPJMHJ
+data_folder: /home/patrick.jeuniaux/FakeNews/problematic_articles
+start_folder: ${data_folder}/none
+ready_folder: ${data_folder}/raw
+processed_folder: ${data_folder}/articles_processed
+ud_folder: ${data_folder}/parse
+log_folder: ${data_folder}
+log_format:
+
+
+
+[Safeguards]
+included: UD_parsing.py
+excluded:
+ask_ready: no
+existing_output_folder_blocks: no
+existing_output_file_blocks: no
+
+[UD_parsing]
+# input_filename_regex: .*\.txt
+input_filename_regex:
+
+move_input_to_processed: no
+server_url: http://localhost:9000
+use_server: yes
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 1000
+# skip_text_char_length: 5000
+skip_text_char_length: 28000
+# max_timeout: 300000
+max_timeout: 600000
+multiprocessing_method: between

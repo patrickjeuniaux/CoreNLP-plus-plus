@@ -1,0 +1,36 @@
+1 Neopibanga neopibanga NN O compound=2
+2 brescoviti brescovitus NNS O ROOT=0
+
+1 Neopibanga neopibanga NN O compound=2
+2 brescoviti brescovitus NNS O nsubj=5
+3 is be VBZ O cop=5
+4 a a DT O det=5
+5 species species NN O ROOT=0
+6 of of IN O case=7
+7 beetle beetle NN O nmod:of=5
+8 in in IN O case=11
+9 the the DT O det=11
+10 family family NN O compound=11
+11 Cerambycidae Cerambycidae NNP O nmod:in=5
+12 , , , O punct=5
+13 and and CC O cc=5
+14 the the DT O det=16
+15 only only JJ O amod=16
+16 species species NNS O conj:and=5
+17 in in IN O case=20
+18 the the DT O det=20
+19 genus genus NN O compound=20
+20 Neopibanga neopibanga NN O nmod:in=16
+21 . . . O punct=5
+
+1 It it PRP O nsubjpass=3
+2 was be VBD O auxpass=3
+3 described describe VBN O ROOT=0
+4 by by IN O case=5
+5 Martins Martins NNP PERSON nmod:agent=3
+6 and and CC O cc=5
+7 Galileo Galileo NNP O nmod:agent=3,conj:and=5
+8 in in IN O case=9
+9 1998 1998 CD DATE nmod:in=3
+10 . . . O punct=3
+

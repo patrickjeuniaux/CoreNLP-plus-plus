@@ -1,0 +1,45 @@
+1 Derry Derry NNP ORGANIZATION compound=3
+2 Olympic Olympic NNP ORGANIZATION compound=3
+3 F.C. F.C. NNP ORGANIZATION ROOT=0
+
+1 Derry Derry NNP ORGANIZATION compound=4
+2 Olympic Olympic NNP ORGANIZATION compound=4
+3 Football Football NNP ORGANIZATION compound=4
+4 Club Club NNP ORGANIZATION nsubj=8
+5 was be VBD O cop=8
+6 a a DT O det=8
+7 football football NN O compound=8
+8 team team NN O ROOT=0
+9 from from IN O case=10
+10 Derry Derry NNP LOCATION nmod:from=8,nsubj=16
+11 , , , O punct=10
+12 Ireland Ireland NNP LOCATION appos=10
+13 that that WDT O ref=10
+14 was be VBD O cop=16
+15 a a DT O det=16
+16 member member NN O acl:relcl=10
+17 of of IN O case=20
+18 the the DT O det=20
+19 Irish Irish NNP ORGANIZATION compound=20
+20 League League NNP ORGANIZATION nmod:of=16
+21 for for IN O case=26
+22 the the DT O det=26
+23 1892 1892 CD DATE nummod=26
+24 -- -- : O punct=26
+25 93 93 CD NUMBER nummod=26
+26 season season NN O nmod:for=16
+27 . . . O punct=8
+
+1 The the DT O det=2
+2 team team NN O nsubjpass=4
+3 was be VBD O auxpass=4
+4 selected select VBN O ROOT=0
+5 from from IN O case=6
+6 players player NNS O nmod:from=4
+7 in in IN O case=11
+8 the the DT O det=11
+9 County County NNP LOCATION compound=11
+10 Londonderry Londonderry NNP LOCATION compound=11
+11 area area NN O nmod:in=6
+12 . . . O punct=4
+

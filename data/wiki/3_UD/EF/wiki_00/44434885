@@ -1,0 +1,17 @@
+1 Chobanka chobanka FW PERSON ROOT=0
+
+1 Chobanka Chobanka NNP LOCATION nsubj=4
+2 is be VBZ O cop=4
+3 a a DT O det=4
+4 village village NN O ROOT=0
+5 in in IN O case=7
+6 Momchilgrad Momchilgrad NNP LOCATION compound=7
+7 Municipality Municipality NNP LOCATION nmod:in=4
+8 , , , O punct=7
+9 Kardzhali Kardzhali NNP LOCATION compound=10
+10 Province Province NNP LOCATION conj=7
+11 , , , O punct=7
+12 southern southern JJ O amod=13
+13 Bulgaria Bulgaria NNP LOCATION appos=7
+14 . . . O punct=4
+

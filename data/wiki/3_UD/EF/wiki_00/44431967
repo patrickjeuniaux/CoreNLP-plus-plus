@@ -1,0 +1,45 @@
+1 Terai Terai NNP ORGANIZATION compound=4
+2 Madhes Madhes NNP ORGANIZATION compound=4
+3 Sadbhavana Sadbhavana NNP ORGANIZATION compound=4
+4 Party Party NNP ORGANIZATION ROOT=0
+
+1 The the DT O det=5
+2 Terai Terai NNP ORGANIZATION compound=5
+3 Madhes Madhes NNP ORGANIZATION compound=5
+4 Sadbhavana Sadbhavana NNP ORGANIZATION compound=5
+5 Party Party NNP ORGANIZATION ROOT=0
+6 -LRB- -lrb- -LRB- O punct=11
+7 -RRB- -rrb- -RRB- O punct=11
+8 is be VBZ O cop=11
+9 a a DT O det=11
+10 political political JJ O amod=11
+11 party party NN O dep=5
+12 in in IN O case=13
+13 Nepal Nepal NNP LOCATION nmod:in=11
+14 . . . O punct=11
+
+1 It it PRP O nsubjpass=3
+2 is be VBZ O auxpass=3
+3 led lead VBN O ROOT=0
+4 by by IN O case=6
+5 Mahendra Mahendra NNP PERSON compound=6
+6 Yadav Yadav NNP PERSON nmod:agent=3
+7 . . . O punct=3
+
+1 The the DT O det=5
+2 Terai Terai NNP ORGANIZATION compound=5
+3 Madhes Madhes NNP ORGANIZATION compound=5
+4 Sadbhavana Sadbhavana NNP ORGANIZATION compound=5
+5 Party Party NNP ORGANIZATION nsubj=6
+6 won win VBD O ROOT=0
+7 3 3 CD NUMBER nummod=8
+8 seats seat NNS O dobj=6
+9 in in IN O case=15
+10 the the DT O det=15
+11 2013 2013 CD DATE nummod=15
+12 Nepalese Nepalese NNP O compound=15
+13 Constituent Constituent NNP ORGANIZATION compound=15
+14 Assembly Assembly NNP ORGANIZATION compound=15
+15 election election NN O nmod:in=8
+16 . . . O punct=6
+

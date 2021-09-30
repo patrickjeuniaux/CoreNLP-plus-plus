@@ -1,0 +1,48 @@
+1 Ritthem Ritthem NNP PERSON ROOT=0
+
+1 Ritthem Ritthem NNP O nsubj=4
+2 is be VBZ O cop=4
+3 a a DT O det=4
+4 village village NN O ROOT=0
+5 in in IN O case=8
+6 the the DT O det=8
+7 Dutch dutch JJ MISC amod=8
+8 province province NN O nmod:in=4
+9 of of IN O case=10
+10 Zeeland Zeeland NNP LOCATION nmod:of=8
+11 . . . O punct=4
+
+1 It it PRP O nsubj=3
+2 is be VBZ O cop=3
+3 located located JJ O ROOT=0
+4 in in IN O case=6
+5 the the DT O det=6
+6 municipality municipality NN O nmod:in=3
+7 of of IN O case=8
+8 Vlissingen Vlissingen NNP PERSON nmod:of=6
+9 , , , O punct=6
+10 about about IN O advmod=11
+11 4 4 CD NUMBER nummod=12
+12 kilometres kilometre NNS O nmod:npmod=13
+13 east east JJ O amod=6
+14 of of IN O case=16
+15 the the DT O det=16
+16 city city NN O nmod:of=13
+17 . . . O punct=3
+
+1 Ritthem Ritthem NNP PERSON nsubj=5
+2 was be VBD O cop=5
+3 a a DT O det=5
+4 separate separate JJ O amod=5
+5 municipality municipality NN O ROOT=0
+6 until until IN O case=7
+7 1966 1966 CD DATE nmod:until=5
+8 , , , O punct=7
+9 when when WRB O advmod=12
+10 it it PRP O nsubjpass=12
+11 was be VBD O auxpass=12
+12 merged merge VBN O acl:relcl=7
+13 with with IN O case=14
+14 Vlissingen vlissingen NN PERSON nmod:with=12
+15 . . . O punct=5
+

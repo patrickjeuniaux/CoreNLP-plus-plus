@@ -1,0 +1,3 @@
+annotators = tokenize, ssplit, pos, lemma, ner, depparse
+outputExtension = .xml
+ssplit.newlineIsSentenceBreak = always

@@ -1,0 +1,34 @@
+1 Universal Universal NNP O compound=2
+2 History history NN O ROOT=0
+3 -LRB- -lrb- -LRB- O punct=4
+4 disambiguation disambiguation NN O appos=2
+5 -RRB- -rrb- -RRB- O punct=4
+
+1 Universal universal JJ O amod=2
+2 history history NN O nsubj=5
+3 is be VBZ O cop=5
+4 the the DT O det=5
+5 presentation presentation NN O ROOT=0
+6 of of IN O case=8
+7 the the DT O det=8
+8 history history NN O nmod:of=5
+9 of of IN O case=10
+10 humankind humankind NN O nmod:of=8
+11 as as IN O case=13
+12 a a DT O det=13
+13 whole whole JJ O nmod:as=5
+14 , , , O punct=5
+15 as as IN O case=18
+16 a a DT O det=18
+17 coherent coherent JJ O amod=18
+18 unit unit NN O nmod:as=5
+19 . . . O punct=5
+
+1 Universal Universal NNP O compound=2
+2 History history NN O nsubj=5
+3 may may MD O aux=5
+4 also also RB O advmod=5
+5 refer refer VB O ROOT=0
+6 to to TO O nmod=5
+7 : : : O punct=5
+

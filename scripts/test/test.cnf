@@ -1,0 +1,33 @@
+# config file for:
+# test
+
+[IO]
+prog_folder: Documents/repos/PPJMHJ
+data_folder: Documents/repos/PPJMHJ/CoreNLP/data/test
+start_folder: ${data_folder}/1_text
+ready_folder: ${data_folder}/1_text
+processed_folder: ${data_folder}/processed
+ud_folder: ${data_folder}/2_UD
+log_folder: ${data_folder}
+
+
+[Safeguards]
+included: test.py
+excluded:
+ask_ready: no
+existing_output_folder_blocks: no
+existing_output_file_blocks: no
+log_format: TEST
+
+[UD_parsing]
+input_filename_regex: ^([^.]+)$$
+move_input_to_processed: no
+server_url: http://localhost:9000
+use_server: yes
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 1000
+skip_text_char_length: 5000
+max_timeout: 300000
+multiprocessing_method: within

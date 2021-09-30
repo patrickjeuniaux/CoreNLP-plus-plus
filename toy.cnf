@@ -1,0 +1,31 @@
+[IO] # <-------------------------------------------------
+prog_folder: Documents/dashboard/projects
+data_folder: Documents/dashboard/data/GEK
+start_folder: Documents/dashboard/data/texts/inventions
+ready_folder: ${data_folder}/1_per_text
+processed_folder: ${data_folder}/_DONE
+ud_folder: ${data_folder}/2_UDs
+log_folder: ${data_folder}
+
+[Management] # <-------------------------------------------------
+log_format: %(asctime)s\t%(message)s
+input_filename_regex: ^([^.]+)$$
+
+[Safeguards] # <-------------------------------------------------
+included: run.py
+excluded:
+ask_ready: no
+existing_output_folder_blocks: no
+existing_output_file_blocks: no
+
+[UD_parsing] # <-------------------------------------------------
+move_input_to_processed: no
+server_url: http://localhost:9000
+use_server: yes
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 1000
+skip_text_char_length: 5000
+max_timeout: 300000
+multiprocessing_method: within

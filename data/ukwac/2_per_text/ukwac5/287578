@@ -1,0 +1,148 @@
+by Lt. Cmdr . 
+
+Irene M. Smith T he threat to Navy cyber security and shipboard local area network ( LAN ) systems is real . 
+
+It is not only just the threat from a sea-skimming antiship cruise missile or a random Scud attack that sends chills down the spines of senior defense department officials , but also the offensive information warfare threat from rogue governments and terrorist groups practicing information warfare . 
+
+Information warfare is the new operational battlespace . 
+
+Extremist organizations and well-funded , state-sponsored groups may someday use information technology to commit acts of terrorism to accomplish their political objectives . 
+
+Through information warfare and cyber terrorism , terrorists and foreign governments can accomplish their political objectives without firing a physical bullet . 
+
+All it takes is a hacker who can gain access to a government or military classified network . 
+
+The hacker can then plant an information bomb or computer virus that is designed to destroy or render computer networks , which control weapon systems , financial transactions and a host of other communications traffic , inoperable . 
+
+In the area of information and infrastructure security , the number of penetrations into commercial , military and infrastructure-related computer systems has soared . 
+
+Sophistication of the threat is evolving quickly . 
+
+The threat of teenage hackers in search of thrills is being replaced by terrorists intent on furthering their political agendas through destruction of information infrastructures . 
+
+A computer attack can take various scenarios . 
+
+Although an “iron bomb” situation might occur , where the computer system crashes in an obvious attack , there are far more sinister , more subtle and potentially more dangerous scenarios : • A bogus e-mail message supposedly originated by the commanding officer may be sent. • A tactical database could be corrupted. • “Logic bombs” causing any manner of damage could be put in place and activated at a crucial moment. • The services of an important tactical display could be denied. • A virus implanted on one machine may spread throughout the ship. • A “sniffer” might copy communications across the network to be read later by unintended recipients. • An attacker manipulates the supply system , and the crucial repair items ordered by the engineer are replaced by cans of Spam. • An attacker accesses the financial database system and cripples the transfer of military pay and allotments . 
+
+The possibilities become mind-boggling . 
+
+The Navy relies on the integrity of the data and information resident on its computer systems . 
+
+If that system is compromised without the knowledge of its system administrators , think of the problems that could arise . 
+
+Ensuring cyber security on board Navy ships is no easy feat . 
+
+Protecting operational and classified information from hackers and unauthorized people seeking access to Navy systems is a reoccurring challenge . 
+
+How does the Navy handle the worldwide Internet that has no boundaries ? 
+
+Ensuring Network Safety T he Navy’s Information Assurance Program , based on a mobile defense- in-depth strategy consisting of levels ( Joseph Hendricks/USN ) of protection , ensures that information networks are available , secure and accessible to only authorized users . 
+
+Capt. Phil Ray , Director for Information Warfare ( OPNAV N64 ) states,“Providing network security can be compared to home security . 
+
+The question is how much security do you want?” The first level of home security is a lock . 
+
+Depending on the neighborhood and environment , one might choose a deadbolt or a chain . 
+
+The next level of security could be to install a burglary alarm system . 
+
+Navy network security follows a similar pattern . 
+
+A security network of multiple zones is designed to protect Navy classified and unclassified networks from intrusion by unauthorized users . 
+
+The first level of network security is a firewall. “Firewalls can be extremely effective,” Ray said. “But the problem is , most allow certain things to pass through.” Firewalls are only as effective as you want them to be. “It is the restrictions of the firewall that protect you . 
+
+Loosen restrictions and the firewall becomes less effective.” All Navy ships are protected by a firewall located at Network Operating Centers . 
+
+Intrusion detection systems ( IDS ) provide additional protection to the deployed units . 
+
+Similar in concept to a home burglary alarm monitored by a security company , IDS detect unauthorized access to the network and provide an alarm to the monitoring activity . 
+
+The Navy employs two types of IDS : Netranger , which provides intrusion detection capability at the boundary layer ; and Real Secure , which provides intrusion detection capability to large ships ( CVN , LHD , LHA ) . 
+
+The Netranger sensors automatically provide an alarm of unauthorized activity to the Fleet Information Warfare Center , based in Norfolk , Va. , while the Real Secure provides an alarm to the ship’s system administrator . 
+
+Monitoring Information Pipelines T he organization at the center of the Navy’s efforts to protect deployed forces is the Fleet Information Warfare Center ( FIWC ) . 
+
+FIWC is the hub for monitoring all the information pipelines out to the fleet . 
+
+Established in 1995 to act as the Navy principal agent for developing information-warfare tactics , techniques , procedures and training , FIWC operates under the operational control of the fleet commanders in chief ( CINCs ) . 
+
+When an unauthorized penetration/intrusion occurs , FIWC contacts the network system administrator who may or may not know of the intrusion . 
+
+FIWC has a twofold job : limit any damage and assist the system administrator in recovering the network . 
+
+Any evidence of criminal wrongdoing is turned over to the Naval Criminal Investigative Service for investigation . 
+
+FIWC also performs threat analyses and attack assessments as well as providing vulnerability coordination . 
+
+Network administrators also keep audit logs monitoring customer usage and illegal access to certain sites. “It is a way of keeping track of what’s going on [ in ] our networks,” Ray said. “Network management and network protection must work together.” FIWC provides online vulnerability assessments to Navy commands on request . 
+
+Prior to deployment of a carrier or amphibious battlegroup , FIWC provides Red Team Operations during predeployment fleet exercises to establish network standard operating procedures and tactical response to network attacks . 
+
+Lessons learned from these efforts are fed back to system designers and schoolhouse instructors . 
+
+Lt. Cmdr . 
+
+Chuck Kasinger is FIWC’s operations officer responsible for Naval Computer Network Defense ( CND ) Operations and the Naval Computer Incident Response Team ( NAVCIRT ) . 
+
+He says that the NAVCIRT has learned that a successful CND effort must be supported at the highest level of the command—the commanding officer . 
+
+The CO needs to ensure that a comprehensive computer network security program is in place . 
+
+The program should provide policy and procedures , training , personnel and resources . 
+
+Success Requires All-Hands Training T he success of a CND program depends on an all-hands involvement . 
+
+Just as in protecting the ship from traditional threats , even the most junior crew members need to understand their roles in protecting the ship from cyber attack . 
+
+A poorly selected password could be the weak entry point an attacker is looking for . 
+
+The unusual on-screen event that a crew member reports to the system administrator may be the first clue that a system has been attacked . 
+
+Similarly , a well-trained , proactive system administrator , intimately familiar with his system , is the cornerstone of the command’s successful program. “An energetic system administrator who knows and understands his systems , aggressively seeks to secure these systems , and is routinely searching for security violations and suspicious activity , is the most powerful tool the command can have,” said Kasinger . 
+
+The most common misperception from computer users is that they think computer incidents are obvious , but they are not because computer hackers normally do not want their attack discovered . 
+
+Consequently , it is not often a situation where the screen melts and the computer crashes . 
+
+Because of the subtleties involved , a system administrator carrying out his normal duties will usually be the one who discovers an attack . 
+
+Training is the most important pillar in providing network security . 
+
+From the external standpoint , a firewall can help protect a system from hackers and prevent unauthorized intrusions , but with new products and hardware being introduced daily , opportunities and vulnerabilities to crack computer security will reoccur constantly . 
+
+Networks are especially vulnerable to problems from within , and education and training can be the most cost-effective way to stop insider abuse. “The challenge to computer security is being able to train your work force to meet the new technological demands and to keep them motivated,” Ray said . 
+
+Just as in protecting the ship from traditional threats , even the junior crew members need to understand their roles in protecting the ship from cyber attack . 
+
+( Gary S. Amerine Jr./USN ) “Getting people trained to benefit from the new technology , I consider that the big challenge . 
+
+The best line of defenseagainst information warfare are educated and trained people.” Recent fleet lessons-learned prove that , with modern IT technology , anything put into an unclassified e-mail can instantly propagate around the world and possibly fall into the hands of a potential adversary or into the press . 
+
+With e-mail access available to the most junior personnel , it becomes essential that all hands receive training highlighting the appropriate use of these new capabilities. “You’re only as good as your people let you be,” Ray said. “The vulnerability with network systems is the technical training . 
+
+There are 1,500 systems administration billets in the Navy and 400 network security vulnerability technical billets . 
+
+Getting the people trained up and out to the fleet is very important.” To meet that need , the Information System Administrator ( ISA ) Course is graduating 450 students per year . 
+
+The Information Systems Security Manager ( ISSM ) and Advanced Network Administrator ( ANA ) courses will be training at full production this fiscal year . 
+
+The Center for Navy Education and Training ( CNET ) has formalized system administrators training , partnering with the CINCs to provide tailored fly-away training at the Fleet Training Centers , as needed , to deploying battlegroups during their work-up period . 
+
+This effort is tailored to provide just-in-time refresher training to the fleet prior to deployment . 
+
+For systems administrators , a CD-ROM-based course on operation system security soon will be distributed to address baseline security training prerequisites . 
+
+A newly updated CD-ROM , published by Defense Information Systems Agency , will provide baseline-user awareness training . 
+
+The CD-ROM will augment local site indoctrination and annual awareness efforts. “Training people is the real key to computer security,” said Ray. “Policy development and fielding new equipment is great , but if you don’t have trained and motivated people you won’t have computer security.” Editor’s note : Lt. Cmdr . 
+
+Irene M. Smith is a public affairs officer in the office of the Director , Surface Warfare ( OPNAV N86 ) . 
+
+To report suspicious events , or for further information or assistance , contact the NAVCIRT via the NAVCIRT hotline at DSN 537-4024 , Comm . 
+
+( 757 ) 417-4024 , or toll-free at ( 888 ) NAV-CIRT ( 628-2478 ) . 
+
+Fax : Unclass : DSN 537-4031 ; Secure : DSN 537-4020 . 
+

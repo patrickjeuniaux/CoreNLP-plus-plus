@@ -1,0 +1,34 @@
+# config file for:
+# BNC
+
+[IO]
+prog_folder: Documents/dashboard/projects
+data_folder: Documents/data/BNC
+start_folder: ${data_folder}/1_old_UD
+ready_folder: ${data_folder}/2_per_text
+processed_folder: ${data_folder}/2_per_text_DONE
+ud_folder: ${data_folder}/3_UD
+log_folder: ${data_folder}
+
+
+[Safeguards]
+included: 3_UD_reparsing.py
+excluded: 1_make_samples.py, 2_preprocess_old_UD.py
+ask_ready: yes
+existing_output_folder_blocks: no
+existing_output_file_blocks: no
+
+
+[UD_parsing]
+server_url: http://localhost:9000
+use_server: yes
+input_filename_regex: ^([^.]+)$$
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 1000
+skip_text_char_length: 5000
+max_timeout: 300000
+move_input_to_processed: yes
+multiprocessing_method: between
+

@@ -1,0 +1,409 @@
+1 Viagogo Viagogo NNP O compound=4
+2 online online NN O compound=4
+3 ticket ticket NN O compound=4
+4 exchange exchange NN O nsubj=7
+5 - - : O punct=7
+6 we we PRP O nsubj=7
+7 have have VBP O ROOT=0
+8 tickets ticket NNS O dobj=7
+9 for for IN O case=12
+10 a a DT O det=12
+11 huge huge JJ O amod=12
+12 range range NN O nmod:for=8
+13 of of IN O case=14
+14 events event NNS O nmod:of=12
+15 , , , O punct=14
+16 including include VBG O case=17
+17 concerts concert NNS O nmod:including=14
+18 , , , O punct=17
+19 musicals musical NNS O nmod:including=14,conj:and=17
+20 , , , O punct=17
+21 sports sport NNS O nmod:including=14,conj:and=17
+22 and and CC O cc=17
+23 more more JJR O nmod:including=14,conj:and=17
+24 . . . O punct=7
+
+1 All all DT O det=2
+2 transactions transaction NNS O nsubj=4,nsubj=6
+3 are be VBP O cop=4
+4 safe safe JJ O ROOT=0
+5 and and CC O cc=4
+6 secure secure JJ O conj:and=4
+7 - - : O punct=4
+8 book book NN O compound=9
+9 online online NN O dep=4
+10 now now RB DATE advmod=9
+11 . . . O punct=4
+
+1 clickserve.uk.dartsearch.net clickserve.uk.dartsearch.net NN URL compound=2
+2 BritishConcerts.com BritishConcerts.com NNP URL ROOT=0
+3 - - : O punct=2
+4 UK UK NNP COUNTRY compound=12
+5 Ticket Ticket NNP O compound=12
+6 Agency Agency NNP O compound=12
+7 The The NNP O compound=12
+8 only only RB O advmod=12
+9 box box NN O compound=12
+10 office office NN O compound=12
+11 Web web NN O compound=12
+12 site site NN O dep=2
+13 providing provide VBG O acl=12
+14 a a DT O det=17
+15 complete complete JJ O amod=17
+16 events event NNS O compound=17
+17 database database NN O dobj=13
+18 on on IN O case=20
+19 one one CD NUMBER nummod=20
+20 page page NN O nmod:on=13
+21 in in IN O case=23
+22 A-Z a-z JJ O amod=23
+23 format format NN O nmod:in=20
+24 . . . O punct=2
+
+1 Just just RB O advmod=2
+2 click click VB O ROOT=0
+3 and and CC O cc=2
+4 book book NN O conj:and=2
+5 . . . O punct=2
+
+1 Also also RB O ROOT=0
+2 the the DT O det=4
+3 only only JJ O amod=4
+4 site site NN O dep=1
+5 to to TO O mark=6
+6 provide provide VB O acl:to=4
+7 front front JJ O amod=9
+8 page page NN O compound=9
+9 promotions promotion NNS O dobj=6
+10 for for IN O case=11
+11 artists artist NNS O nmod:for=9
+12 or or CC O cc=11
+13 events event NNS O nmod:for=9,conj:or=11
+14 . . . O punct=1
+
+1 www.britishconcerts.com www.britishconcerts.com NNP URL compound=2
+2 Gig Gig NNP O nsubj=6
+3 on on IN O case=5
+4 eBay eBay NNP O compound=5
+5 Great Great NNP O nmod:on=2
+6 deals deal VBZ O ROOT=0
+7 on on IN O case=8
+8 guitars guitar NNS O nmod:on=6
+9 . . . O punct=6
+
+1 Buy buy VB O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 Sell sell VB O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 Love love NN O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 eBay.co.uk ebay.co.uk NN URL ROOT=0
+2 . . . O punct=1
+
+1 www.ebay.co.uk www.ebay.co.uk NN URL compound=2
+2 Gigs gig NNS O nsubj=5
+3 at at IN O case=4
+4 Shopzilla Shopzilla NNP LOCATION nmod:at=2
+5 Compare compare VBP O ROOT=0
+6 gigs gig NNS O dobj=5
+7 from from IN O case=13
+8 over over IN O advmod=9
+9 4,000 4,000 CD NUMBER nummod=13
+10 UK UK NNP COUNTRY compound=13
+11 consumer consumer NN O compound=13
+12 rated rate VBN O amod=13
+13 stores store NNS O nmod:from=5
+14 . . . O punct=5
+
+1 www.shopzilla.co.uk www.shopzilla.co.uk JJ URL amod=2
+2 Gig gig NN O ROOT=0
+3 on on IN O case=7
+4 eBay eBay NNP ORGANIZATION compound=7
+5 Fantastic Fantastic NNP ORGANIZATION compound=7
+6 low low JJ O amod=7
+7 prices price NNS O nmod:on=2
+8 on on IN O case=9
+9 CDs cd NNS O nmod:on=7
+10 . . . O punct=2
+
+1 Buy buy VB O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 Sell sell VB O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 Love love NN O ROOT=0
+2 it it PRP O dobj=1
+3 . . . O punct=1
+
+1 eBay.co.uk ebay.co.uk NN URL ROOT=0
+2 . . . O punct=1
+
+1 www.ebay.co.uk www.ebay.co.uk NN URL ROOT=0
+2 Looking look VBG O acl=1
+3 for for IN O case=5
+4 Gig Gig NNP O compound=5
+5 Tickets Tickets NNPS O nmod:for=2
+6 ? ? . O punct=1
+
+1 Sold sell VBN O ROOT=0
+2 out out RP O compound:prt=1
+3 and and CC O cc=1
+4 first first JJ ORDINAL amod=8
+5 ten ten CD NUMBER nummod=8
+6 row row NN O compound=8
+7 gig gig NN O compound=8
+8 tickets ticket NNS O conj:and=1
+9 available available JJ O xcomp=1
+10 now now RB DATE advmod=9
+11 at at IN O case=12
+12 Double8Tickets.com Double8Tickets.com NNP URL nmod:at=9
+13 . . . O punct=1
+
+1 Specialists specialist NNS O ROOT=0
+2 in in IN O case=3
+3 hard hard JJ O acl:in=1
+4 to to TO O mark=5
+5 obtain obtain VB O xcomp=3
+6 tickets ticket NNS O dobj=5
+7 . . . O punct=1
+
+1 www.double8tickets.com www.double8tickets.com NNP URL compound=3
+2 Gigs Gigs NNP O compound=3
+3 Unlimited Unlimited NNP O ROOT=0
+4 - - : O punct=3
+5 Promoting Promoting NNP O compound=8
+6 Fresh Fresh NNP O compound=8
+7 New New NNP O compound=8
+8 Talent Talent NNP O dep=3
+9 ! ! . O punct=3
+
+1 Dedicated dedicate VBN O ROOT=0
+2 to to TO O mark=3
+3 promoting promote VBG O advcl:to=1
+4 Up up RP O amod=15
+5 and and CC O cc=4
+6 Coming come VBG O conj:and=4,amod=15
+7 , , , O punct=4
+8 Signed sign VBN O conj:and=4,amod=15
+9 AND and CC O cc=8
+10 Unsigned unsigned JJ O conj:and=4,conj:and=8
+11 , , , O punct=4
+12 Big big JJ O conj:and=4,amod=15
+13 AND and CC O cc=4
+14 Small small JJ O conj:and=4,amod=15
+15 Bands band NNS O dobj=3
+16 from from IN O case=18
+17 all all DT O det=18
+18 genres genre NNS O nmod:from=3
+19 . . . O punct=1
+
+1 We we PRP O nsubj=2
+2 get get VBP O ROOT=0
+3 you you PRP O nsubj=4
+4 playing play VBG O dep=2
+5 to to TO O case=8
+6 a a DT O det=8
+7 full full JJ O amod=8
+8 house house NN O nmod:to=4
+9 ! ! . O punct=2
+
+1 ... ... : O punct=2
+2 http://www.makepovertyhistory.org http://www.makepovertyhistory.org NN URL ROOT=0
+3 . . . O punct=2
+
+1 © © NN O compound=2
+2 Gigs gig NNS O ROOT=0
+3 Unlimited unlimited JJ O amod=4
+4 2002-2004 2002-2004 CD DURATION dep=2
+5 ... ... : O punct=2
+6 still still RB O advmod=7
+7 registering register VBG O dep=2
+8 and and CC O cc=7
+9 existing exist VBG O dep=2,conj:and=7
+10 bands band NNS O dobj=7
+11 still still RB O advmod=12
+12 submitting submit VBG O advcl=7
+13 their they PRP$ O nmod:poss=14
+14 news news NN O dobj=12
+15 and and CC O cc=14
+16 gigs gig NNS O dobj=12,conj:and=14
+17 . . . O punct=2
+
+1 However however RB O advmod=7
+2 , , , O punct=7
+3 things thing NNS O nsubj=7
+4 have have VBP O aux=7
+5 been be VBN O cop=7
+6 pretty pretty RB O advmod=7
+7 static static JJ O ROOT=0
+8 on on IN O case=12
+9 ... ... : O punct=12
+10 www.gigs-unlimited.co.uk www.gigs-unlimited.co.uk JJ URL amod=12
+11 Gig Gig NNP O compound=12
+12 Guide Guide NNP TITLE nmod:on=7
+13 , , , O punct=12
+14 gigs gig NNS O nmod:on=7,conj:and=12
+15 and and CC O cc=12
+16 live live VB O amod=17
+17 music music NN O nmod:on=7,conj:and=12
+18 , , , O punct=12
+19 bands band NNS O nmod:on=7,conj:and=12
+20 , , , O punct=12
+21 music music NN O compound=22
+22 venues venue NNS O nmod:on=7,conj:and=12
+23 and and CC O cc=12
+24 a a DT O det=28
+25 forum forum NN O compound=28
+26 Gig Gig NNP ORGANIZATION compound=28
+27 Guide Guide NNP ORGANIZATION compound=28
+28 Ltd Ltd NNP ORGANIZATION nmod:on=7,conj:and=12
+29 , , , O punct=28
+30 UK UK NNP COUNTRY compound=31
+31 gigs gig NNS O conj:and=12,conj:and=28
+32 and and CC O cc=28
+33 music music NN O compound=34
+34 information information NN O conj:and=12,conj:and=28
+35 including include VBG O case=38
+36 live live JJ O amod=38
+37 music music NN O compound=38
+38 events event NNS O nmod:including=28
+39 , , , O punct=38
+40 concerts concert NNS O appos=38
+41 in in IN O case=43
+42 England England NNP COUNTRY compound=43
+43 Scotland Scotland NNP COUNTRY nmod:in=40
+44 , , , O punct=43
+45 Wales Wales NNP LOCATION nmod:in=40,conj:and=43
+46 and and CC O cc=43
+47 Northern Northern NNP LOCATION compound=49
+48 Ireland Ireland NNP COUNTRY compound=49
+49 gigs gig NNS O nmod:in=40,conj:and=43
+50 , , , O punct=43
+51 music music NN O compound=52
+52 forum forum NN O nmod:in=40,conj:and=43
+53 , , , O punct=43
+54 recording record VBG O amod=55
+55 studios studio NNS O nmod:in=40,conj:and=43
+56 , , , O punct=43
+57 music music NN O compound=58
+58 tutors tutor NNS O nmod:in=40,conj:and=43
+59 , , , O punct=43
+60 instrument instrument NN O compound=61
+61 repairers repairer NNS O nmod:in=40,conj:and=43
+62 , , , O punct=43
+63 music music NN O compound=64
+64 venues venue NNS O nmod:in=40,conj:and=43
+65 and and CC O cc=43
+66 rehearsal rehearsal NN O compound=67
+67 rooms room NNS O nmod:in=40,conj:and=43
+68 . . . O punct=7
+
+1 . . . O ROOT=0
+
+1 . . . O ROOT=0
+
+1 Gigs gig NNS O ROOT=0
+2 . . . O punct=1
+
+1 Function function NN O compound=4
+2 & & CC O cc=1
+3 Wedding wedding NN O conj:&=1,compound=4
+4 Bands band NNS O ROOT=0
+5 . . . O punct=4
+
+1 Tribute tribute NN O compound=2
+2 Bands band NNS O ROOT=0
+3 . . . O punct=2
+
+1 Live Live NNP O compound=3
+2 Music Music NNP O compound=3
+3 Venues Venues NNPS O ROOT=0
+4 ... ... : O punct=3
+5 www.gig-guide.co.uk www.gig-guide.co.uk JJ URL amod=7
+6 Gig gig NN O compound=7
+7 Reviews review NNS O dep=3
+8 : : : O punct=3
+9 musicOMH.com musicOMH.com NNP URL compound=10
+10 Gig Gig NNP O nsubj=11
+11 reviews review VBZ O dep=3
+12 and and CC O cc=11
+13 festival festival NN O compound=14
+14 reviews review NNS O dep=3,conj:and=11
+15 from from IN O case=16
+16 musicOMH.com musicOMH.com NNP URL nmod:from=11
+17 . . . O punct=3
+
+1 ... ... : O punct=2
+2 albums album NNS O ROOT=0
+3 . . . O punct=2
+
+1 tracks track NNS O ROOT=0
+2 . . . O punct=1
+
+1 gigs gig NNS O ROOT=0
+2 . . . O punct=1
+
+1 festivals festival NNS O ROOT=0
+2 . . . O punct=1
+
+1 music music NN O compound=2
+2 DVDs dvd NNS O ROOT=0
+3 ... ... : O punct=2
+4 www.musicomh.com www.musicomh.com NNP URL compound=7
+5 Ultimate Ultimate NNP O compound=7
+6 Gig Gig NNP O compound=7
+7 Guide Guide NNP TITLE dep=2
+8 For for IN O case=11
+9 The the DT O det=11
+10 East East NNP LOCATION compound=11
+11 Midlands Midlands NNPS CITY nmod:for=7
+12 and and CC O cc=11
+13 Beyond Beyond NNP O compound=15
+14 Comprehensive Comprehensive NNP O compound=15
+15 guide guide NN TITLE nmod:for=7,conj:and=11
+16 to to TO O case=17
+17 concerts concert NNS O nmod:to=7
+18 and and CC O cc=17
+19 events event NNS O nmod:to=7,conj:and=17
+20 in in IN O case=24
+21 The the DT LOCATION det=24
+22 East East NNP LOCATION compound=24
+23 Midlands Midlands NNPS CITY compound=24
+24 area area NN O nmod:in=17
+25 of of IN O case=26
+26 England England NNP COUNTRY nmod:of=24
+27 . . . O punct=2
+
+1 . . . O ROOT=0
+
+1 . . . O ROOT=0
+
+1 . . . O ROOT=0
+
+1 We we PRP O nsubj=3
+2 have have VBP O aux=3
+3 launched launch VBN O ROOT=0
+4 a a DT O det=7
+5 new new JJ O amod=7
+6 national national JJ O amod=7
+7 guide guide NN TITLE dobj=3
+8 ... ... : O punct=3
+9 please please VB O aux=10
+10 see see VB O parataxis=3
+11 ... ... : O punct=10
+12 www.gigs.co.uk www.gigs.co.uk NN URL dobj=10
+13 . . . O punct=3
+
+1 . . . O ROOT=0
+
+1 . . . O ROOT=0
+

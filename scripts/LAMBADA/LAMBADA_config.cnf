@@ -1,0 +1,33 @@
+# config file for:
+# LAMBADA
+
+[IO]
+prog_folder: Documents/dashboard/projects
+data_folder: Documents/data/LAMBADA
+start_folder:
+ready_folder: ${data_folder}/1_original
+processed_folder: ${data_folder}/1_original_DONE
+ud_folder: ${data_folder}/2_UD
+log_folder: ${data_folder}
+
+[Safeguards]
+included:1_UD_parsing.py
+excluded:
+ask_ready: yes
+existing_output_folder_blocks: yes
+existing_output_file_blocks: yes
+
+
+[UD_parsing]
+server_url: http://localhost:9000
+use_server: yes
+input_filename_regex: .*\.txt
+paragraph_delimiter: \n
+parse_per_paragraph: yes
+tag_parse: yes
+max_text_char_length: 100000
+skip_text_char_length: 0
+max_timeout: 300000
+move_input_to_processed: yes
+multiprocessing_method: between
+

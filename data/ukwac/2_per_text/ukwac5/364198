@@ -1,0 +1,6 @@
+Examples of spatial analysis using mixed models and REML estimation SUE WELHAM ( Rothamsted Research ) Use of geo-statistical models within the linear mixed model framework provides a flexible method of spatial analysis for data that arise in agricultural research . 
+
+The spatial structure of the data may be a nuisance factor to be excluded before the assessment of treatment or environmental factors , or may be of interest in its own right for kriging or local-area prediction . 
+
+Examples of spatial analysis at the national , field and laboratory scales will be discussed . 
+

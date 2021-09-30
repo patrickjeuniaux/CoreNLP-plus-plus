@@ -1,0 +1,32 @@
+# config file for:
+# Wiki2018
+
+[IO]
+prog_folder: Documents/dashboard/projects
+data_folder: Documents/data/Wiki20180203
+start_folder: ${data_folder}/1_raw
+ready_folder: ${data_folder}/2_per_text
+processed_folder: ${data_folder}/processed
+ud_folder: ${data_folder}/3_UD_test
+log_folder: ${data_folder}
+
+
+[Safeguards]
+included: 3_UD_statistics.py
+excluded: 1_split_per_text.py, 2_UD_parsing.py
+ask_ready: no
+existing_output_folder_blocks: no
+existing_output_file_blocks: no
+
+[UD_parsing]
+input_filename_regex: ^([^.]+)$$
+move_input_to_processed: no
+server_url: http://localhost:9000
+use_server: no
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 1000
+skip_text_char_length: 5000
+max_timeout: 300000
+multiprocessing_method: within

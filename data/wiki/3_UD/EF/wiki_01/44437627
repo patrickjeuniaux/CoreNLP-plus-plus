@@ -1,0 +1,46 @@
+1 Manuel Manuel NNP PERSON compound=3
+2 Cárdenas Cárdenas NNP PERSON compound=3
+3 Fonseca Fonseca NNP PERSON ROOT=0
+
+1 Manuel Manuel NNP PERSON compound=3
+2 Cárdenas Cárdenas NNP PERSON compound=3
+3 Fonseca Fonseca NNP PERSON nsubj=13
+4 -LRB- -lrb- -LRB- O punct=5
+5 born bear VBN O dep=3
+6 13 13 CD DATE nummod=7
+7 February February NNP DATE nmod:tmod=5
+8 1958 1958 CD DATE nummod=7
+9 -RRB- -rrb- -RRB- O punct=5
+10 is be VBZ O cop=13
+11 a a DT O det=13
+12 Mexican mexican JJ MISC amod=13
+13 politician politician NN O ROOT=0
+14 from from IN O case=18
+15 the the DT O det=18
+16 New New NNP ORGANIZATION compound=18
+17 Alliance Alliance NNP ORGANIZATION compound=18
+18 Party Party NNP ORGANIZATION nmod:from=13
+19 . . . O punct=13
+
+1 From from IN O case=2
+2 2006 2006 CD DATE ROOT=0
+3 to to TO O dep=4
+4 2009 2009 CD DATE nmod=2
+5 he he PRP O nsubj=6
+6 served serve VBD O acl:relcl=4
+7 as as IN O case=8
+8 Deputy Deputy NNP O nmod:as=6
+9 of of IN O case=11
+10 the the DT O det=11
+11 LVII lvii NN O nmod:of=8
+12 and and CC O cc=11
+13 LX LX NNP O compound=14
+14 Legislatures Legislatures NNP O nmod:of=8,conj:and=11
+15 of of IN O case=18
+16 the the DT O det=18
+17 Mexican mexican JJ O amod=18
+18 Congress Congress NNP ORGANIZATION nmod:of=11
+19 representing represent VBG O acl=18
+20 Sinaloa Sinaloa NNP LOCATION dobj=19
+21 . . . O punct=2
+

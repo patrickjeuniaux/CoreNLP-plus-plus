@@ -1,0 +1,54 @@
+# config file
+#############
+
+# Warning:
+##########
+# '$' have a special function in the configuration file.
+# They are used for value interpolations.
+# As a consequence any $ should be escaped if it is to appear as a value.
+# Otherwise you will see messages like:
+# '$' must be followed by '$' or '{'
+# So for instance, instead of having
+# input_filename_regex: ^([^.]+)$
+# you must write:
+# input_filename_regex: ^([^.]+)$$
+
+
+[Safeguards]
+included:config_reader.py
+excluded:
+ask_ready: yes
+existing_output_folder_blocks: yes
+existing_output_file_blocks: yes
+
+
+[Management]
+log_format: %(asctime)s\t%(message)s
+
+
+[IO]
+prog_folder: Documents/dashboard/projects
+data_folder: Documents/data/Wiki20180203
+start_folder: %(data_folder)s/1_raw
+ready_folder: %(data_folder)s/2_per_text
+processed_folder: %(data_folder)s/processed
+ud_folder: %(data_folder)s/3_UD
+stats_folder: %(data_folder)s/4_stats
+event_tokens_folder: %(data_folder)s/5_event_tokens
+events_folder: %(data_folder)s/6_events
+log_folder: %(data_folder)s
+
+
+
+[UD_parsing]
+input_filename_regex: ^([^.]+)$$
+move_input_to_processed: no
+server_url: http://localhost:9000
+use_server: no
+paragraph_delimiter: \s{2,}
+parse_per_paragraph: no
+tag_parse: no
+max_text_char_length: 50000
+skip_text_char_length: 5000
+max_timeout: 300000
+multiprocessing_method: within
